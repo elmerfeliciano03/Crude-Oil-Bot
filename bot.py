@@ -21,7 +21,7 @@ TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 # Set your desired price targets for Crude Oil
 TARGETS = {
     "alert_above": 110.00,    # Alert when price goes ABOVE this
-    "alert_below": 96.00,    # Alert when price goes BELOW this
+    "alert_below": 100.00,    # Alert when price goes BELOW this
     "exact_price": 95.00,    # Alert when price hits EXACTLY this (within 0.05)
 }
 
